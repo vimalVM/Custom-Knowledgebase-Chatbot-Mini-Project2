@@ -1,0 +1,338 @@
+[
+  {
+    "id": "kb-001",
+    "title": "Sports List and Batch Capacity",
+    "audience": ["student", "faculty", "staff"],
+    "content": "List of Sports and Capacity per batch: 1. Athletics (60), 2. Badminton (24), 3. Basketball (40), 4. Cricket (40), 5. Football (40), 6. Judo (40), 7. Squash (24), 8. Swimming (30), 9. Taekwondo (20), 10. Volleyball (40), 11. Table Tennis (16). Total In a Batch: 334."
+  },
+  {
+    "id": "kb-002",
+    "title": "Sports Venue Instructions",
+    "audience": ["student", "faculty", "staff"],
+    "content": "Venue Instructions: 1. Athletics - Athletics Track, Sports Attire and Shoes is Compulsory. 2. Badminton - Eklavya Sports Complex, Sports Attire and Gum Sole Shoes is Compulsory. 3. Basketball - Behind K J Somaiya College of Arts and Com, Sports Attire and Shoes is Compulsory. 4. Cricket - Cricket Nets, Eklavya Sports Complex, Sports Attire and Shoes is Compulsory. 5. Football - Football turf, Eklavya Sports Complex, Sports Attire and Shoes is Compulsory. 6. Judo - Eklavya Sports Complex, Sports Attire is Compulsory. 7. Squash - Eklavya Sports Complex, Sports Attire and Gum Sole Shoes is Compulsory. 8. Swimming - Eklavya Sports Complex, Swimming Costume, goggle and Cap are compulsory, Consent form to be submitted before the session. 9. Taekwondo - Eklavya Sports Complex, Sports Attire is Compulsory. 10. Volleyball - D Area, Athletics Track, Sports Attire and Shoes is Compulsory. 11. Table Tennis - T.T Hall, Sports Science Lab, Sports Attire and Gum Sole Shoes is Compulsory."
+  },
+  {
+    "id": "kb-003",
+    "title": "End Semester Examination Scheme",
+    "audience": ["student", "faculty"],
+    "content": "Scheme of End Semester Examination/Assessment: Internal Assessment (20 marks) - Assignment (10 marks), Attendance (10 marks). Theory paper Exam (20 marks). Sport Specific Practical Assessment (60 marks) - Basic Skills demonstration, Match practice."
+  },
+  {
+    "id": "kb-004",
+    "title": "Athletics Curriculum",
+    "audience": ["student", "faculty"],
+    "content": "Curriculum of Athletics (Track & Field): Unit 1 - Origin and Latest Development of Athletics; Structure & Function of World Athletics and AFI (20%). Unit 2 - Fundamental Skills Training: Running, Jumping, Throwing Techniques, Event-Specific Conditioning (40%). Unit 3 - Rules, Regulations and Officiating: Track and Field Event Rules, Scoring, Timing, Measurement (20%). Unit 4 - Event Organization and Participation: Meet Management, Event Scheduling, Heat Structures (20%). Each semester includes 4 hours of theory, 10 hours of practicals, and 2 hours of assessment, totaling 16 hours across 16 weeks."
+  },
+  {
+    "id": "kb-005",
+    "title": "Athletics Theory Chapters",
+    "audience": ["student", "faculty"],
+    "content": "Athletics Theory Chapters: 1. History and Development of Athletics - Origins in Ancient Greece and Olympic revival in 1896, Development of structured events by IAAF (now World Athletics), Role of Athletics in physical development and talent scouting in schools. 2. Governing Bodies - World Athletics (formerly IAAF): International body setting global rules and records, AFI (Athletics Federation of India): Governs all Indian athletics competitions, talent ID, and development. 3. Fundamental Techniques - Sprinting: Block starts, acceleration, stride frequency; Middle and Long Distance: Pacing strategy, breathing rhythm; Hurdles: Step pattern, hurdle clearance; Jumps: Long/Triple Jump: Approach run, take-off, flight, and landing; High Jump: Fosbury Flop technique; Pole Vault: Grip, pole plant, bar clearance; Throws: Shot Put, Discus, Javelin, Hammer: Grip, stance, rotation/glide, release mechanics. 4. Rules and Regulations - Track Rules: Lane violations, false start, relay exchange zones; Field Rules: Number of attempts, fouls, valid measurement zones; Equipment Regulations: Size, weight, and type of implements; Scoring System: Based on performance (distance/time), and position in heats/finals. 5. Officiating - Roles of Referee, Starter, Timekeeper, Measurer; Use of electronic timing systems; Measurement of throws/jumps using standard tools; Use of red and white flags for validity signals. 6. Event Organization - Heats & Finals: Time-based and position-based qualifications; Facility Setup: Track markings, field zones, event-specific safety; Scorekeeping & Results Compilation; Roles of announcer, volunteers, marshals, and technical officials."
+  },
+  {
+    "id": "kb-006",
+    "title": "Athletics Practical Sessions",
+    "audience": ["student", "faculty"],
+    "content": "Athletics Practical Sessions: A. Running Events - Sprint Drills: High knees, A/B skips, block starts; Middle-distance: Tempo runs, pace control drills; Relay practice: Baton hand-off in exchange zones. B. Jumping Events - Long jump & triple jump phases; High jump: Approach curve and takeoff; Pole vault drills (if facilities available). C. Throwing Events - Shot put, discus, javelin, and hammer drills; Use of light implements for technique; Safety zone briefing and warm-up protocol. D. Conditioning & Flexibility - Strength training circuits; Dynamic and static stretching; Mobility drills for jumpers and throwers."
+  },
+  {
+    "id": "kb-007",
+    "title": "Athletics Assessment",
+    "audience": ["student", "faculty"],
+    "content": "Athletics Assessment: 1. Theory Exam - History, rules of events, equipment standards, officiating signals. 2. Practical Exam - Event-specific technique execution; Participation in mock meet: sprints, jump, and throw; Teamwork, warm-up routine, adherence to rules."
+  },
+  {
+    "id": "kb-008",
+    "title": "Athletics References",
+    "audience": ["student", "faculty"],
+    "content": "Athletics References: 'Fundamentals of Track and Field' – Gerry Carr, 'Athletics: Steps to Success' – Ed Jacoby & Bob Fraley, IAAF (World Athletics) Coaching Manuals – Available at worldathletics.org"
+  },
+  {
+    "id": "kb-009",
+    "title": "Badminton Curriculum",
+    "audience": ["student", "faculty"],
+    "content": "Curriculum of Badminton: Unit 1 - Origin and Latest Development of Badminton; Structure & Function of BWF and BAI (20%). Unit 2 - Fundamental Skills Training: Grips, Strokes, Footwork, Movement, Singles and Doubles Tactics (40%). Unit 3 - Rules, Regulations and Officiating: Scoring System, Match Format, Referee and Umpire Roles (20%). Unit 4 - Event Organization and Participation: Tournament Format, Draw System, Scheduling and Scoring (20%). Each semester includes 4 hours of theory, 10 hours of practicals, and 2 hours of assessment, totaling 16 hours across 16 weeks."
+  },
+  {
+    "id": "kb-010",
+    "title": "Badminton Theory Chapters",
+    "audience": ["student", "faculty"],
+    "content": "Badminton Theory Chapters: 1. History and Development of Badminton - Originated in India as 'Poona'; developed in England; Establishment of BWF (1934), Olympic sport since 1992; India's rise in world badminton (P.V. Sindhu, Saina Nehwal, Srikanth Kidambi). 2. Governing Bodies - BWF (Badminton World Federation): Global rules, events like World Championships & Olympics; BAI (Badminton Association of India): Manages national ranking tournaments, coaching, selections. 3. Fundamental Techniques - Grips: Forehand grip, backhand grip; Footwork: Lunge, chasse, split-step, recovery; Strokes: Serve: Low serve, high serve; Lift: Underhand and overhand; Drop: Fast and slow; Smash: Jump and half-smash; Net Play: Tumble, net kill; Movement: Base position, return-to-base strategy. 4. Rules and Regulations - Scoring System: 21-point rally format, best of 3 games; Service Rules: Below waist height, service box regulations; Faults: Double hit, shuttle caught in net, foot faults; Match Setup: Singles and doubles court size and rotation rules. 5. Officiating - Umpire: Controls the match, keeps score; Service Judge: Observes service legality; Line Judges: Monitor boundary calls; Referee: Oversees the conduct of the event. 6. Event Organization - Tournament formats: Knockout, Round Robin; Seeding, draw creation, and scheduling; Match scheduling, scorer's table, warm-up time; Fair play principles and match protocols."
+  },
+  {
+    "id": "kb-011",
+    "title": "Badminton Practical Sessions",
+    "audience": ["student", "faculty"],
+    "content": "Badminton Practical Sessions: A. Skill Development - Serve, net play, lifts, and smashes; Grip corrections and racket control drills. B. Movement Training - Shuttle run drills; Multi-directional footwork; Corner recovery and court coverage patterns. C. Match Play Simulation - Singles rally practice; Doubles positioning and communication; Live scoring with match official roles practiced. D. Fitness and Conditioning - Agility ladder drills; Reaction time drills; Flexibility and cool-down routines."
+  },
+  {
+    "id": "kb-012",
+    "title": "Badminton Assessment",
+    "audience": ["student", "faculty"],
+    "content": "Badminton Assessment: 1. Theory Exam - History, rules, techniques, terminology, and scoring systems. 2. Practical Exam - Skill execution: Serve, smash, footwork; Match play under scoring conditions; Teamwork and adherence to game rules."
+  },
+  {
+    "id": "kb-013",
+    "title": "Badminton References",
+    "audience": ["student", "faculty"],
+    "content": "Badminton References: 'Fundamentals of Badminton' – Dr. Ramesh Chand, 'Techniques of Badminton' – Dr. Kiran Chhokar"
+  },
+  {
+    "id": "kb-014",
+    "title": "Basketball Curriculum",
+    "audience": ["student", "faculty"],
+    "content": "Curriculum of Basketball: Unit 1 - Origin and Latest Development of Basketball; Structure & Function of FIBA and BFI (20%). Unit 2 - Fundamental Skills Training: Dribbling, Passing, Shooting, Rebounding, Defense, Team Play (40%). Unit 3 - Rules, Regulations and Officiating: Game Rules, Scoring, Fouls, Referee Signals (20%). Unit 4 - Event Organization and Participation: Tournament Format, Team Management, Scheduling (20%). Each semester includes 4 hours of theory, 10 hours of practicals, and 2 hours of assessment, totaling 16 hours across 16 weeks."
+  },
+  {
+    "id": "kb-015",
+    "title": "Basketball Theory Chapters",
+    "audience": ["student", "faculty"],
+    "content": "Basketball Theory Chapters: 1. History and Development of Basketball - Invented by Dr. James Naismith in 1891 (USA); Growth through YMCA and global expansion; Became an Olympic sport in 1936; Introduction and rise of basketball in India. 2. Governing Bodies - FIBA (International Basketball Federation): Governs global rules and tournaments; BFI (Basketball Federation of India): Governs basketball in India, conducts nationals and talent programs. 3. Fundamental Techniques - Dribbling: Low dribble, crossover, spin move; Passing: Accurate delivery under pressure; Shooting: Lay-ups, free throws, jump shots, three-pointers; Rebounding: Boxing out, timing, positioning; Defense: On-ball defense, help defense, stealing; Team Play: Transition offense, fast breaks, spacing. 4. Rules and Regulations - Team Composition: 5 players on court per team; Match Format: Four quarters of 10 minutes (FIBA); Scoring: 2-point, 3-point, and 1-point shots (free throws); Violations: Traveling, double dribble, shot clock, 3-second rule; Fouls: Personal, technical, unsportsmanlike fouls; Bonus Rule: Free throws after team fouls. 5. Officiating - Referee: Enforces rules, manages game flow; Umpires: Assist in foul calls, out-of-bound judgments; Scorekeeper & Timekeeper: Maintain game stats and timing; Signals: Use of hand signals for fouls, violations, and substitutions. 6. Event Organization - Tournament Types: Knockout, league, 3x3; Team Registration: Entry forms, player list, jersey numbers; Scheduling: Time slots, warm-up time, score recording; Logistics: Court preparation, first-aid, volunteer duties."
+  },
+  {
+    "id": "kb-016",
+    "title": "Basketball Practical Sessions",
+    "audience": ["student", "faculty"],
+    "content": "Basketball Practical Sessions: A. Skill Development - Dribbling under pressure; Passing in motion; Shooting drills from various positions. B. Defensive Drills - Close-outs, help defense, switching; Defensive slide and block out. C. Game Strategy Practice - Running offensive plays; 3v3 and 5v5 mock games; Time-bound scenarios (last 2 minutes of game). D. Fitness and Conditioning - Sprinting and shuttle runs; Agility ladder and cone drills; Vertical jump and core strength exercises."
+  },
+  {
+    "id": "kb-017",
+    "title": "Basketball Assessment",
+    "audience": ["student", "faculty"],
+    "content": "Basketball Assessment: 1. Theory Exam - History, rules, signals, scoring system, game structure. 2. Practical Exam - Skill demonstration (dribble, pass, shoot, defend); Participation in a mock game; Communication and adherence to team strategy."
+  },
+  {
+    "id": "kb-018",
+    "title": "Basketball References",
+    "audience": ["student", "faculty"],
+    "content": "Basketball References: 'Techniques and Tactics of Basketball' – Dr. Rajesh Kumar, 'Basketball Fundamentals' – Dr. P.C. Sharma"
+  },
+  {
+    "id": "kb-019",
+    "title": "Cricket Curriculum",
+    "audience": ["student", "faculty"],
+    "content": "Curriculum of Cricket: Unit 1 - Origin and Latest Development of Cricket; Structure & Function of ICC and BCCI (20%). Unit 2 - Fundamental Skills Training: Batting, Bowling, Fielding, Wicket-keeping, Running Between Wickets (40%). Unit 3 - Rules, Regulations and Officiating: Match Formats, Scoring, Umpiring Signals (20%). Unit 4 - Event Organization and Participation: Team Formation, Tournament Formats, Scoring Sheets (20%). Each semester includes 4 hours of theory, 10 hours of practicals, and 2 hours of assessment — a total of 16 hours across 16 weeks."
+  },
+  {
+    "id": "kb-020",
+    "title": "Cricket Theory Chapters",
+    "audience": ["student", "faculty"],
+    "content": "Cricket Theory Chapters: 1. History and Development of Cricket - Origins in England, expansion to colonies; Formation of ICC and its role; Evolution of formats: Test → ODI → T20. 2. Governing Bodies - ICC (International Cricket Council): Global governing body; BCCI (Board of Control for Cricket in India): National body for Indian cricket. 3. Fundamental Techniques - Batting: Defensive and attacking strokes, footwork; Bowling: Fast, swing, off-spin, leg-spin basics; Fielding: Catching (high, low), throwing accuracy, diving techniques; Wicket-Keeping: Foot movement, glove work, reflex catching; Running: Quick singles, turning, communication between batters. 4. Rules and Regulations - Match formats and structure; Field restrictions (Powerplays), Free Hits; LBW, Run out, Caught behind, DRS overview; Umpiring signals: Out, No-ball, Wide, Six, Four, Leg Bye. 5. Officiating - Role of field umpires and third umpire; Scoring system and how matches are recorded; Role of match referee and scorers. 6. Event Organization - Team registration, fixture planning; Scoring formats: Manual and Digital; Ground setup and logistics management."
+  },
+  {
+    "id": "kb-021",
+    "title": "Cricket Practical Sessions",
+    "audience": ["student", "faculty"],
+    "content": "Cricket Practical Sessions: A. Batting Drills - Front foot drives, pull shots, cut shots; Defense and shot selection under pressure. B. Bowling Drills - Target bowling, pace control, spin variations; Run-up and follow-through training. C. Fielding Drills - One-hand pick-up and throw; Slip catching, outfield high catches, direct hits. D. Game Simulation - T20 practice match; Rotating players through all roles (batting, bowling, fielding, keeping)."
+  },
+  {
+    "id": "kb-022",
+    "title": "Cricket Assessment",
+    "audience": ["student", "faculty"],
+    "content": "Cricket Assessment: 1. Theory Exam - Written paper covering rules, history, equipment, and techniques. 2. Practical Exam - Demonstration of batting, bowling, and fielding techniques; Match-play performance and tactical application."
+  },
+  {
+    "id": "kb-023",
+    "title": "Cricket References",
+    "audience": ["student", "faculty"],
+    "content": "Cricket References: 'Cricket: Skills and Techniques' – Dr. Ramesh Rawat, 'Fundamentals of Cricket' – Dr. B.S. Bal"
+  },
+  {
+    "id": "kb-024",
+    "title": "Football Curriculum",
+    "audience": ["student", "faculty"],
+    "content": "Curriculum of Football: Unit 1 - Origin and Latest Development of Football; Structure & Function of FIFA and AIFF (20%). Unit 2 - Fundamental Skills Training: Dribbling, Passing, Shooting, Ball Control, Defending, Goalkeeping (40%). Unit 3 - Rules, Regulations and Officiating: Competition Formats, Scoring, and Refereeing (20%). Unit 4 - Event Organization and Participation: Match Preparation, Team Strategy, Tournament Organization (20%). Each semester includes 4 hours of theory, 10 hours of practicals, and 2 hours of assessment — a total of 16 hours over 16 weeks."
+  },
+  {
+    "id": "kb-025",
+    "title": "Football Theory Chapters",
+    "audience": ["student", "faculty"],
+    "content": "Football Theory Chapters: 1. History and Development of Football - Origins of football, formation of FIFA; Evolution of rules and modern football (Club & International level). 2. Governing Bodies - FIFA (Fédération Internationale de Football Association): Global regulation; AIFF (All India Football Federation): National governing body. 3. Fundamental Techniques - Dribbling: Ball control, close control, change of pace; Passing: Short and long-range, through balls; Shooting: Techniques for accuracy, power, and different angles; Defending: Tackling, marking, and positioning; Goalkeeping: Shot-stopping, distribution, and communication. 4. Rules and Regulations - Match Formats: Duration of games, extra time, and penalty shootouts; Offside Rule: Definition, exceptions, and impact on strategy; Fouls & Cards: Yellow and red cards, free kicks, penalty kicks; Refereeing: Role of the referee, assistant referees, and video assistant referee (VAR). 5. Officiating - Referee's Role: Conducting matches, enforcing laws, timekeeping; Assistant Referees: Offside decisions, throw-ins, and corner kicks; VAR: Overview of the video assistant referee's role. 6. Event Organization - Team Management: Team selection, pre-match warm-up routines; Match Setup: Field preparation, goal settings, match schedules; Tournament Management: Group stages, knockout rounds, and finals."
+  },
+  {
+    "id": "kb-026",
+    "title": "Football Practical Sessions",
+    "audience": ["student", "faculty"],
+    "content": "Football Practical Sessions: A. Skill Drills - Passing, Dribbling, and Shooting drills; Ball control and receiving practice; Goalkeeping basics: Catching, diving, distribution. B. Defensive Drills - One-on-one defending, tackling, intercepting passes; Zonal defending, pressing high up the pitch. C. Team Play and Strategy - Possession-based play, counter-attacking drills; Positioning exercises, understanding formations (4-4-2, 4-3-3). D. Match Simulation - Small-sided games for speed and tactics; Full-field practice matches for team play, defensive and offensive transitions."
+  },
+  {
+    "id": "kb-027",
+    "title": "Football Assessment",
+    "audience": ["student", "faculty"],
+    "content": "Football Assessment: 1. Theory Exam - Written exam covering rules, history, techniques, and governing bodies. 2. Practical Exam - Skill demonstration (dribbling, passing, shooting); Defensive and attacking scenarios during match play."
+  },
+  {
+    "id": "kb-028",
+    "title": "Football References",
+    "audience": ["student", "faculty"],
+    "content": "Football References: 'Football Fundamentals and Techniques' – Dr. Rakesh Tomar, 'Football Coaching Manual' – SAI Publication"
+  },
+  {
+    "id": "kb-029",
+    "title": "Judo Curriculum",
+    "audience": ["student", "faculty"],
+    "content": "Curriculum of Judo: Unit 1 - Origin and Latest Development of Judo; Structure & Function of IJF and JFI (20%). Unit 2 - Fundamental Skills Training: Ukemi (Breakfalls), Kuzushi, Nage-waza, Katame-waza, Randori (40%). Unit 3 - Rules, Regulations and Officiating: Scoring System, Penalties, Referee Commands (20%). Unit 4 - Event Organization and Participation: Tournament Format, Weight Categories, Safety Protocols (20%). Each semester includes 4 hours of theory, 10 hours of practicals, and 2 hours of assessment, totaling 16 hours spread across 16 weeks."
+  },
+  {
+    "id": "kb-030",
+    "title": "Judo Theory Chapters",
+    "audience": ["student", "faculty"],
+    "content": "Judo Theory Chapters: 1. History and Development of Judo - Founded by Jigoro Kano in 1882 in Japan; Development from traditional jujutsu; Olympic debut in 1964 (men) and 1992 (women); Role of Judo in character education and peace promotion. 2. Governing Bodies - IJF (International Judo Federation): Sets global rules and organizes World Championships, Olympics; JFI (Judo Federation of India): Manages national events and athlete development in India. 3. Fundamental Techniques - Ukemi (Breakfalls): To fall safely and prevent injury; Kuzushi: Unbalancing the opponent; Nage-waza (Throwing Techniques): Hand, hip, foot, and sacrifice throws; Katame-waza (Grappling Techniques): Pins (Osaekomi-waza), chokes (Shime-waza), joint locks (Kansetsu-waza). 4. Rules and Regulations - Scoring: Ippon (full point), Waza-ari (half), Shido (penalty); Prohibited Actions: Grabbing legs, defensive posture, illegal grips; Match Duration: 4 minutes for cadets/juniors/seniors (IJF standard); Victory Conditions: Ippon, accumulation of Waza-ari, opponent disqualification. 5. Officiating - Referee Commands: Hajime (start), Matte (stop), Ippon, Waza-ari, Shido; Judging Panel: Referee and 2 corner judges (video review in major events); Mat Layout: Contest area and safety zone. 6. Event Organization - Weight Classes: Based on age and gender categories; Competition Format: Knockout, pool rounds, and repechage; Draw System: Seeding, brackets, and medals; Role of Coaches and Officials: Conduct, mat-side behavior."
+  },
+  {
+    "id": "kb-031",
+    "title": "Judo Practical Sessions",
+    "audience": ["student", "faculty"],
+    "content": "Judo Practical Sessions: A. Basic Skills and Drills - Breakfalls and footwork; Repetitive throwing drills (uchi-komi); Movement drills with partner. B. Technique Execution - Practice of 2–3 throws per session; Pinning combinations and transitions; Shime-waza and Kansetsu-waza under supervision. C. Randori (Free Practice) - Standing (tachi-waza) and ground (ne-waza) sparring; Situational randori (start in pin, escape drills). D. Competition Simulation - Mini matches with rules; Practice referee commands and scoring; Respect and bowing rituals before and after match."
+  },
+  {
+    "id": "kb-032",
+    "title": "Judo Assessment",
+    "audience": ["student", "faculty"],
+    "content": "Judo Assessment: 1. Theory Exam - History, philosophy, rules, techniques, terminology. 2. Practical Exam - Execution of breakfalls, throws, and pins; Match participation and sportsmanship evaluation."
+  },
+  {
+    "id": "kb-033",
+    "title": "Judo References",
+    "audience": ["student", "faculty"],
+    "content": "Judo References: 'Fundamentals of Judo' – Dr. G.L. Khanna, 'Judo: A Way of Life' – Sports Authority of India (SAI Manual)"
+  },
+  {
+    "id": "kb-034",
+    "title": "Squash Curriculum",
+    "audience": ["student", "faculty"],
+    "content": "Curriculum of Squash: Unit 1 - Origin and Latest Development of Squash; Structure & Function of WSF and SRFI (20%). Unit 2 - Fundamental Skills Training: Grip, Strokes, Movement, Court Awareness, Match Play (40%). Unit 3 - Rules, Regulations and Officiating: Scoring System, Refereeing, Code of Conduct (20%). Unit 4 - Event Organization and Participation: Tournament Structure, Draws, Match Scheduling (20%). Each semester includes 4 hours of theory, 10 hours of practicals, and 2 hours of assessment — a total of 16 hours over 16 weeks."
+  },
+  {
+    "id": "kb-035",
+    "title": "Squash Theory Chapters",
+    "audience": ["student", "faculty"],
+    "content": "Squash Theory Chapters: 1. History and Development of Squash - Origin from the game of racquets in England; Growth as a competitive international sport; Inclusion in major events (Commonwealth Games, Asian Games). 2. Governing Bodies - WSF (World Squash Federation): Global governing authority; SRFI (Squash Rackets Federation of India): National organization. 3. Fundamental Techniques - Grip: Standard racket hold; Forehand & Backhand: Drives, drops, volleys; Movement: T-position recovery, ghosting drills; Game Patterns: Length and width play, attacking front court. 4. Rules and Regulations - Game structure: Best of 3 or 5 games to 11 points; Scoring system: PAR (Point-A-Rally); Interference, let, stroke decisions; Code of conduct and safety guidelines. 5. Officiating - Role of Referee and Marker; Call commands: 'Let', 'Stroke', 'No Let'; Managing disputes and conduct violations. 6. Event Organization - Draw format: Knockout, Round Robin; Court setup and scheduling; Player briefing, warm-up zones, scoreboard handling."
+  },
+  {
+    "id": "kb-036",
+    "title": "Squash Practical Sessions",
+    "audience": ["student", "faculty"],
+    "content": "Squash Practical Sessions: A. Technique Development - Drive consistency and control; Basic drop shots and front court play; Volley timing and quick reaction. B. Footwork & Agility - Court movement drills; Ghosting drills for positioning and recovery; Front-back and side-to-side transitions. C. Match Play Preparation - Serve & return drills; Constructing rallies with intention; Short format matches with scoring. D. Physical Fitness & Injury Prevention - Core strength training; Dynamic stretching routines; Eye protection and safety awareness."
+  },
+  {
+    "id": "kb-037",
+    "title": "Squash Assessment",
+    "audience": ["student", "faculty"],
+    "content": "Squash Assessment: 1. Theory Exam - History, rules, structure of the game, and scoring system. 2. Practical Exam - Skill tests on grip, stroke execution, movement; Observation in mini matches for application and tactics."
+  },
+  {
+    "id": "kb-038",
+    "title": "Squash References",
+    "audience": ["student", "faculty"],
+    "content": "Squash References: 'Squash: Skills – Tactics – Techniques' – Tony Griffin, 'The Complete Guide to Coaching Squash' – Ian McKenzie"
+  },
+  {
+    "id": "kb-039",
+    "title": "Swimming Curriculum",
+    "audience": ["student", "faculty"],
+    "content": "Curriculum of Swimming: Unit 1 - Origin and Latest Development of Swimming; Structure & Function of FINA and SFI (20%). Unit 2 - Fundamental Skills Training: Floating, Breathing, Freestyle, Backstroke, Breaststroke, Butterfly (40%). Unit 3 - Rules, Regulations and Officiating: Stroke Rules, Start & Turn Techniques, Race Management (20%). Unit 4 - Event Organization and Participation: Heats, Finals, Relays, Safety Measures (20%). Each semester includes 4 hours of theory, 10 hours of practicals, and 2 hours of assessment, totaling 16 hours across 16 weeks."
+  },
+  {
+    "id": "kb-040",
+    "title": "Swimming Theory Chapters",
+    "audience": ["student", "faculty"],
+    "content": "Swimming Theory Chapters: 1. History and Development of Swimming - Ancient records of swimming (Egypt, Greece); Competitive swimming began in the 1800s; Introduction to Olympics in 1896 (men) and 1912 (women); India's milestones and international achievements. 2. Governing Bodies - FINA (World Aquatics): Sets global rules, organizes World Championships, Olympics; SFI (Swimming Federation of India): Manages national events and athlete training. 3. Fundamental Techniques - Floating: Front and back float; Breathing: Side breathing and rhythmic coordination; Strokes: Freestyle: Flutter kick, arm pull, streamline position; Backstroke: Supine body position, alternating arm and kick; Breaststroke: Simultaneous kick and pull, glide technique; Butterfly: Dolphin kick, simultaneous arm pull. 4. Rules and Regulations - Starts: Dive technique, false start rules; Turns: Stroke-specific rules for legal turns; Finishes: One-hand vs two-hand touches; Stroke Violations: Incorrect movement, pull-out violations; Disqualification Scenarios: False start, early finish, illegal stroke. 5. Officiating - Referee: Supervises overall conduct; Starter: Ensures fair start, uses whistle and buzzer; Timekeepers: Record swimmers' finish times; Stroke Judges: Monitor legality of movements; Turn Judges: Ensure correct turn techniques. 6. Event Organization - Race Formats: 25m, 50m, 100m, 200m, IM, Relays; Heats and Finals: Time-based qualification; Relay Events: Team entries, changeovers; Safety: Lifeguards, first aid, pool regulations."
+  },
+  {
+    "id": "kb-041",
+    "title": "Swimming Practical Sessions",
+    "audience": ["student", "faculty"],
+    "content": "Swimming Practical Sessions: A. Skill Development - Floating and breathing control; Stroke technique drills using kickboards and paddles; Arm recovery and leg propulsion drills. B. Stroke Training - Freestyle drills with breathing focus; Backstroke with correct hand entry; Breaststroke timing and coordination; Butterfly kick and rhythm improvement. C. Competitive Readiness - Start practice with dive blocks; Turn practice at wall (open turn & flip turn); Relay practice (takeover timing). D. Conditioning & Endurance - Lap swimming for stamina; Interval training sets; Breath-holding drills."
+  },
+  {
+    "id": "kb-042",
+    "title": "Swimming Assessment",
+    "audience": ["student", "faculty"],
+    "content": "Swimming Assessment: 1. Theory Exam - Written paper on stroke rules, start/turn protocols, and history. 2. Practical Exam - Stroke demonstration (at least 2 strokes); Timing trial in a chosen event; Turn and finish technique evaluation."
+  },
+  {
+    "id": "kb-043",
+    "title": "Swimming References",
+    "audience": ["student", "faculty"],
+    "content": "Swimming References: 'Squash: Skills – Tactics – Techniques' – Tony Griffin, 'The Complete Guide to Coaching Squash' – Ian McKenzie"
+  },
+  {
+    "id": "kb-044",
+    "title": "Table Tennis Curriculum",
+    "audience": ["student", "faculty"],
+    "content": "Table Tennis Curriculum: Unit 1 - Origin and Latest Development of Table Tennis; Structure & Function of ITTF and TTFI (20%). Unit 2 - Fundamental Skills Training: Grips and Strokes, Footwork and Rally Drills, Participation in Competition, Advanced Drills for Skill Enhancement (40%). Unit 3 - Rules, Regulations and Officiating: Match Formats, Scoring, and Equipment (20%). Unit 4 - Event Organization and Participation: Basic Event Management in Table Tennis (20%). Each semester will consist of 4 hours of theory, 10 hours of practicals, and 2 hours of assessment. The total 16 hours will be split into 16 weeks."
+  },
+  {
+    "id": "kb-045",
+    "title": "Table Tennis Theory Chapters",
+    "audience": ["student", "faculty"],
+    "content": "Table Tennis Theory Chapters: 1. History and Development of Table Tennis - Origins in 19th-century England; Evolution into an Olympic sport (1988); Rise of dominant nations (China, Sweden, Germany); Development in India: Role of TTFI. 2. Governing Bodies - ITTF (International Table Tennis Federation): Headquarters: Lausanne, Switzerland; Oversees world rankings, rules, events like World Championships, Olympics; TTFI (Table Tennis Federation of India): Founded in 1926; Organizes national championships, junior development, selection for international events. 3. Fundamental Skills and Drills - Grips: Shakehand, Penhold; Strokes: Forehand, Backhand, Push, Chop, Loop; Footwork: Side shuffle, crossover step; Drills: Multi-ball drills, Service-receive combinations, Consistency and speed drills. 4. Rules and Regulations - Match formats (Best of 5 or 7); 11-point games, switch every 2 serves; Legal service rules (16 cm toss, open palm); Singles vs Doubles rules; Equipment specs: Bat, ball (40 mm), table dimensions. 5. Officiating in Table Tennis - Role of umpire, assistant umpire, referee; Scoring, time-outs, and let rules; Use of video review (if applicable in tournaments). 6. Organization of Events - Setting up tables and courts; Round robin vs knockout formats; Draw creation, seeding, and scheduling; Score sheet preparation; Managing team events and singles fixtures."
+  },
+  {
+    "id": "kb-046",
+    "title": "Table Tennis Practical Sessions",
+    "audience": ["student", "faculty"],
+    "content": "Table Tennis Practical Sessions: A. Stroke Practice - Forehand and backhand drives; Push and block techniques; Loop and counter-loop; Smash and lob. B. Footwork Drills - Side-to-side movement; Short-long transitions; Position recovery. C. Service and Receive - Spin generation; Placement and deception; Third-ball attack setups. D. Match Play and Simulation - Singles and Doubles practice matches; Tactical decision-making; Adapting to opponent's style."
+  },
+  {
+    "id": "kb-047",
+    "title": "Table Tennis Assessment",
+    "audience": ["student", "faculty"],
+    "content": "Table Tennis Assessment: 1. Theory Exam - Written test on rules, history, techniques, and event structure. 2. Practical Exam - Execution of strokes, serves, footwork; Match-play performance and tactical application."
+  },
+  {
+    "id": "kb-048",
+    "title": "Table Tennis References",
+    "audience": ["student", "faculty"],
+    "content": "Table Tennis References: 'Table Tennis: Techniques and Rules' – Dr. Pankaj Singh, 'Fundamentals of Table Tennis' – NCERT/CBSE PE curriculum"
+  },
+  {
+    "id": "kb-049",
+    "title": "Taekwondo Curriculum",
+    "audience": ["student", "faculty"],
+    "content": "Curriculum of Taekwondo: Unit 1 - Origin and Latest Development of Taekwondo; Structure & Function of WT and TFI (20%). Unit 2 - Fundamental Skills Training: Stances, Kicks, Punches, Blocks, Poomsae, Sparring (40%). Unit 3 - Rules, Regulations and Officiating: Scoring System, Competition Format, Refereeing (20%). Unit 4 - Event Organization and Participation: Belt Testing, Tournament Management, Safety (20%). Each semester includes 4 hours of theory, 10 hours of practicals, and 2 hours of assessment — a total of 16 hours over 16 weeks."
+  },
+  {
+    "id": "kb-050",
+    "title": "Taekwondo Theory Chapters",
+    "audience": ["student", "faculty"],
+    "content": "Taekwondo Theory Chapters: 1. History and Development of Taekwondo - Origins in Korea, meaning of 'Tae-Kwon-Do'; Evolution into Olympic sport; Role of martial arts in discipline and character-building. 2. Governing Bodies - WT (World Taekwondo): Governs Olympic-style sparring; TFI (Taekwondo Federation of India): National authority in India. 3. Fundamental Techniques - Stances: Attention, Ready, Front, Back; Kicks: Front Kick, Turning Kick, Back Kick, Jump Kick; Hand Techniques: Jab, Cross, Palm Strike; Blocks: Low, Middle, High, Knife-Hand; Poomsae: Forms or patterns for belt advancement; Sparring (Kyorugi): Controlled combat techniques. 4. Rules and Regulations - Olympic sparring rules; Points system: Head kick, body kick, punches; Protective gear: Headguard, chest protector, gloves; Warnings, penalties, disqualification rules. 5. Officiating - Referee's Role: Starting match, scoring calls, issuing penalties; Judges: Point assessment through electronic scoring; Use of Instant Video Replay (IVR)."
+  },
+  {
+    "id": "kb-051",
+    "title": "Taekwondo References",
+    "audience": ["student", "faculty"],
+    "content": "Taekwondo References: 'Taekwondo: Basic Techniques' – Dr. Harish Chander, 'Taekwondo: The State of the Art' – Master James S. Benko"
+  },
+  {
+    "id": "kb-052",
+    "title": "Volleyball Curriculum",
+    "audience": ["student", "faculty"],
+    "content": "Curriculum of Volleyball: Unit 1 - Origin and Latest Development of Volleyball; Structure & Function of FIVB and VFI (20%). Unit 2 - Fundamental Skills Training: Serving, Passing, Setting, Spiking, Blocking, Team Formation (40%). Unit 3 - Rules, Regulations and Officiating: Game Format, Scoring, Refereeing System (20%). Unit 4 - Event Organization and Participation: Match Preparation, Tournament Conduct, Roles of Officials (20%). Each semester includes 4 hours of theory, 10 hours of practicals, and 2 hours of assessment, totaling 16 hours spread across 16 weeks."
+  },
+  {
+    "id": "kb-053",
+    "title": "Volleyball Theory Chapters",
+    "audience": ["student", "faculty"],
+    "content": "Volleyball Theory Chapters: 1. History and Development of Volleyball - Invented by William G. Morgan in 1895 (USA); Spread globally under YMCA; recognition by IOC; Olympic status and introduction of variations (Beach Volleyball, Sitting Volleyball). 2. Governing Bodies - FIVB (Fédération Internationale de Volleyball): World governing body; VFI (Volleyball Federation of India): Organizes and regulates volleyball in India. 3. Fundamental Techniques - Serve: Underhand, Overhand, Jump Serve; Pass: Forearm pass (bump), overhead pass (set); Set: Front set, back set, quick set; Spike: Approach, jump, arm swing; Block: Solo and double block techniques; Dig: Defensive skill for receiving spikes. 4. Rules and Regulations - Team Composition: 6 players per side; Match Format: Best of 3 or 5 sets, sets to 25 points; Rotation and Substitution Rules; Net Violations, Foot Faults, Double Hits; Line Calls and Referee Signals. 5. Officiating - First Referee: Controls the match from referee stand; Second Referee: Assists near the net, monitors rotation; Line Judges: Flag calls on court boundaries; Scorer: Maintains official score sheet and substitutions. 6. Event Organization - Setup of court and net; Scheduling matches, team registration; Roles of volunteers, coaches, and referees; Conducting inter-house or inter-school tournaments."
+  },
+  {
+    "id": "kb-054",
+    "title": "Volleyball Practical Sessions",
+    "audience": ["student", "faculty"],
+    "content": "Volleyball Practical Sessions: A. Skill Drills - Passing: Wall drills, partner drills; Serving: Toss and serve accuracy; Setting: Height and direction control; Spiking: Approach, jump, and hitting point. B. Team Drills - 3-player passing system; Rotation practice and position-specific roles; Simulated rallies for attack-defense transition. C. Game Simulation - Mini games focusing on rule application; Serving under pressure and tactical placement; Using real match situations to evaluate decision-making. D. Physical Conditioning - Vertical jump training; Core and shoulder strength workouts; Agility and movement around court."
+  },
+  {
+    "id": "kb-055",
+    "title": "Volleyball Assessment",
+    "audience": ["student", "faculty"],
+    "content": "Volleyball Assessment: 1. Theory Exam - Written test on rules, history, court layout, and scoring. 2. Practical Exam - Execution of basic skills: Serve, Pass, Set, Spike, Block; Team coordination and participation in a practice match."
+  },
+  {
+    "id": "kb-056",
+    "title": "Volleyball References",
+    "audience": ["student", "faculty"],
+    "content": "Volleyball References: 'Volleyball: Fundamental Skills' – Dr. Ajay Kumar, 'Coaching Volleyball' – LNIPE Publication"
+  }
+]
