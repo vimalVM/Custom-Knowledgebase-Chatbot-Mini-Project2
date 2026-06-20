@@ -225,6 +225,7 @@ app.get("/api/health", (_, res) => res.json({ ok: true }));
 
 app.get("/api/keep-alive", (_, res) => {
   const currentTime = new Date().toISOString();
+  console.log(`[keep-alive] Ping received at ${currentTime}`);
   res.status(200).json({
     status: "alive",
     message: "Server is awake",
