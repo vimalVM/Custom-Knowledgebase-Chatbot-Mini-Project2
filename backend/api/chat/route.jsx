@@ -1,5 +1,5 @@
 import { streamText } from "ai";
-import { google } from "@ai-sdk/google";
+import { createGroq } from "@ai-sdk/groq";
 import { retrieveRelevant } from "../../lib/embedding.js";
 
 async function handler(req, res) {
@@ -7,11 +7,11 @@ async function handler(req, res) {
     return res.status(405).send("Method Not Allowed");
   }
 
-  if (!process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
+  if (!process.env.GROQ_API_KEY) {
     return res
       .status(500)
       .send(
-        "Server misconfiguration: GOOGLE_GENERATIVE_AI_API_KEY is missing. Add it in Project Settings."
+        "Server misconfiguration: GROQ_API_KEY is missing. Add it in Project Settings."
       );
   }
 
@@ -40,7 +40,8 @@ async function handler(req, res) {
             .join("\n\n")
         : "No context found.";
 
-    const model = google("gemini-1.5-flash");
+    const groq = createGroq({ apiKey: process.env.GROQ_API_KEY });
+    const model = groq("llama-3.3-70b-versatile");
 
     const result = await streamText({
       model,

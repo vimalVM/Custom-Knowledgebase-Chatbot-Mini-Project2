@@ -1,7 +1,7 @@
 # Custom Knowledgebase Chatbot (Mini Project)
 
 This is a **custom knowledgebase chatbot** backend hosted on [Render.com](https://custom-knowledgebase-chatbot-mini-project.onrender.com).  
-It is built using **Express.js** and integrates with **Google Gemini API** to provide context-aware answers from a knowledge base.
+It is built using **Express.js** and integrates with **Groq API** (Llama 3.3 70B) for LLM chat and **Google Gemini API** for embeddings, to provide context-aware answers from a knowledge base.
 
 ---
 
@@ -10,7 +10,7 @@ It is built using **Express.js** and integrates with **Google Gemini API** to pr
 - **Backend**: Express.js (Node.js)
 - **Frontend**: Separate app (built with Vite + React + TailwindCSS)
 - **Hosting**: Render.com (backend), frontend hosted separately
-- **LLM Provider**: Google Gemini (`gemini-1.5-flash`)
+- **LLM Provider**: Groq (`llama-3.3-70b-versatile`)
 - **Embeddings**: Google `text-embedding-004`
 - **Knowledge Base**: JSON files stored in `/data` directory
 
@@ -20,7 +20,7 @@ The chatbot works by:
 2. Generating embeddings for all KB entries.
 3. Accepting user queries via API (`/api/chat`).
 4. Retrieving the most relevant KB entries (cosine similarity).
-5. Passing the retrieved context + user query to Gemini.
+5. Passing the retrieved context + user query to Groq (Llama 3.3 70B).
 6. Returning an answer.
 
 ---

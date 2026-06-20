@@ -5,6 +5,7 @@ const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
+const Groq = require("groq-sdk");
 
 dotenv.config();
 
@@ -21,11 +22,18 @@ app.use(express.json({ limit: "1mb" }));
 
 if (!process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
   console.warn(
-    "[server] GOOGLE_GENERATIVE_AI_API_KEY is missing. Set it in .env"
+    "[server] GOOGLE_GENERATIVE_AI_API_KEY is missing. Set it in .env (needed for embeddings)"
+  );
+}
+
+if (!process.env.GROQ_API_KEY) {
+  console.warn(
+    "[server] GROQ_API_KEY is missing. Set it in .env (needed for chat)"
   );
 }
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GENERATIVE_AI_API_KEY);
+const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 const kbDir = path.join(__dirname, "data");
 
@@ -47,7 +55,7 @@ function cosineSim(a, b) {
 }
 
 async function embedText(text) {
-  const embedModel = genAI.getGenerativeModel({ model: "text-embedding-004" });
+  const embedModel = genAI.getGenerativeModel({ model: "gemini-embedding-001" });
   const r = await embedModel.embedContent(text);
   const v = r.embedding.values;
   if (!EMBED_DIM) EMBED_DIM = v.length;
@@ -171,17 +179,20 @@ app.post("/api/chat", async (req, res) => {
     const queryVec = await embedText(String(lastUser.content));
     const contexts = retrieve(queryVec, role, 10);
 
-    const model = genAI.getGenerativeModel({
-      model: "gemini-2.0-flash",
-    });
     const prompt = buildPrompt({
       question: lastUser.content,
       audience: role,
       contexts,
     });
-    const result = await model.generateContent([{ text: prompt }]);
+
+    const completion = await groq.chat.completions.create({
+      model: "llama-3.3-70b-versatile",
+      messages: [{ role: "user", content: prompt }],
+      temperature: 0.4,
+      max_tokens: 1024,
+    });
     const text =
-      (await result.response.text()) || "I could not generate a response.";
+      completion.choices[0]?.message?.content || "I could not generate a response.";
 
     return res.json({
       answer: text,

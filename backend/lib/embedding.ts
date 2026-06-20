@@ -3,7 +3,7 @@ import { google } from "@ai-sdk/google"
 import { getKB } from "./kb"
 import type { Audience, KBEmbedding, KBItem } from "./types"
 
-const EMBEDDING_MODEL = "text-embedding-004"
+const EMBEDDING_MODEL = "gemini-embedding-001"
 
 let cache: {
   items: KBItem[]
