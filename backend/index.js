@@ -54,13 +54,31 @@ function cosineSim(a, b) {
   return dot / denom;
 }
 
+// async function embedText(text) {
+//   const embedModel = genAI.getGenerativeModel({ model: "embedding-001" });
+//   const r = await embedModel.embedContent(text);
+//   const v = r.embedding.values;
+//   if (!EMBED_DIM) EMBED_DIM = v.length;
+//   return v;
+// }
+
 async function embedText(text) {
-  const embedModel = genAI.getGenerativeModel({ model: "gemini-embedding-001" });
-  const r = await embedModel.embedContent(text);
-  const v = r.embedding.values;
-  if (!EMBED_DIM) EMBED_DIM = v.length;
-  return v;
+  try {
+    const embedModel = genAI.getGenerativeModel({
+      model: "gemini-embedding-001",
+    });
+
+    const r = await embedModel.embedContent(text);
+    const v = r.embedding.values;
+
+    if (!EMBED_DIM) EMBED_DIM = v.length;
+    return v;
+  } catch (e) {
+    console.error("Embedding failed:", e.message);
+    return new Array(EMBED_DIM || 768).fill(0);
+  }
 }
+
 
 function normalizeAudience(a) {
   if (a == null) return [];
