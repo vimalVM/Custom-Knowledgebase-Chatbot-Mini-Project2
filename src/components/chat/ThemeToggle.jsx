@@ -5,12 +5,11 @@ export default function ThemeToggle({ theme, setTheme }) {
   return (
     <button
       type="button"
-      aria-label="Toggle theme"
+      aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      className="inline-flex items-center gap-2 rounded-lg border border-slate-200 dark:border-slate-800 px-3 py-2 text-sm hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors"
+      className="h-9 w-9 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800/60 flex items-center justify-center text-slate-400 hover:text-purple-500 dark:text-slate-500 dark:hover:text-purple-400 transition-all duration-200 active:scale-90"
     >
-      {isDark ? <Sun size={16} /> : <Moon size={16} />}
-      <span className="hidden sm:inline">{isDark ? "Light" : "Dark"} mode</span>
+      {isDark ? <Sun size={18} /> : <Moon size={18} />}
     </button>
   );
 }
