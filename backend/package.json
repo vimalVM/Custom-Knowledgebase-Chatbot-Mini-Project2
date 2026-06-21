@@ -10,8 +10,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node index.js",
-    "start": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "@ai-sdk/google": "^2.0.11",
