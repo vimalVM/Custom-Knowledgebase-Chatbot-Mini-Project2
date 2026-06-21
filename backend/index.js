@@ -33,7 +33,7 @@ if (!process.env.GROQ_API_KEY) {
 }
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GENERATIVE_AI_API_KEY);
-const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+const groq = process.env.GROQ_API_KEY ? new Groq({ apiKey: process.env.GROQ_API_KEY }) : null;
 
 const kbDir = path.join(__dirname, "data");
 
@@ -202,6 +202,10 @@ app.post("/api/chat", async (req, res) => {
       audience: role,
       contexts,
     });
+
+    if (!groq) {
+      return res.status(500).json({ error: "Server misconfiguration: GROQ_API_KEY is missing on the server. Please add it to the Render dashboard." });
+    }
 
     const completion = await groq.chat.completions.create({
       model: "llama-3.3-70b-versatile",
