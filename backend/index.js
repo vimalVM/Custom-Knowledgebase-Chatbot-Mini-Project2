@@ -12,9 +12,9 @@ dotenv.config();
 const PORT = process.env.PORT || 8787;
 const app = express();
 const corsOptions = {
-  origin: true, // Or explicitly: ["https://kjsim-chatbot.netlify.app"]
-  methods: ["GET", "POST", "OPTIONS"],
-  credentials: true,
+  origin: "*", 
+  methods: ["GET", "POST", "OPTIONS", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
 };
 
 app.use(cors(corsOptions));
