@@ -1,4 +1,4 @@
-import { embed } from "ai"
+import { embed, embedMany } from "ai"
 import { google } from "@ai-sdk/google"
 import { getKB } from "./kb"
 import type { Audience, KBEmbedding, KBItem } from "./types"
@@ -29,14 +29,15 @@ export async function getOrBuildEmbeddings() {
 
   const model = google.textEmbedding(EMBEDDING_MODEL)
 
-  const embeddings: KBEmbedding[] = []
-  for (const it of items) {
-    const { embedding } = await embed({
-      model,
-      value: `${it.title}\n\n${it.content}`,
-    })
-    embeddings.push({ id: it.id, embedding })
-  }
+  const { embeddings: rawEmbeddings } = await embedMany({
+    model,
+    values: items.map(it => `${it.title}\n\n${it.content}`)
+  })
+
+  const embeddings: KBEmbedding[] = rawEmbeddings.map((embedding, i) => ({
+    id: items[i].id,
+    embedding
+  }))
 
   cache = { items, embeddings }
   return cache
