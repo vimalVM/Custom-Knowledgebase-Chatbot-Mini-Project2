@@ -88,7 +88,34 @@ function normalizeAudience(a) {
 
 async function loadKb() {
   try {
-    const files = fs.readdirSync(kbDir).filter((f) => f.endsWith(".json"));
+    const embeddingsFile = path.join(kbDir, "embeddings.json");
+
+    // Try loading pre-computed embeddings first (zero API calls)
+    if (fs.existsSync(embeddingsFile)) {
+      const raw = fs.readFileSync(embeddingsFile, "utf-8");
+      const data = JSON.parse(raw);
+
+      EMBED_DIM = data.dim || 0;
+      KB = [];
+      KB_WITH_EMBEDS = [];
+
+      for (const item of data.items) {
+        KB.push({ id: item.id, title: item.title, content: item.content, audience: item.audience, tags: item.tags });
+        KB_WITH_EMBEDS.push({
+          ...item,
+          audience: normalizeAudience(item.audience),
+        });
+      }
+
+      console.log(
+        `[server] KB loaded from pre-computed embeddings: ${KB.length} items (dim=${EMBED_DIM}) — 0 API calls used`
+      );
+      return;
+    }
+
+    // Fallback: compute embeddings on the fly (uses API quota)
+    console.warn("[server] embeddings.json not found — computing embeddings on the fly (uses API quota)");
+    const files = fs.readdirSync(kbDir).filter((f) => f.endsWith(".json") && f !== "embeddings.json");
     KB = [];
     KB_WITH_EMBEDS = [];
 

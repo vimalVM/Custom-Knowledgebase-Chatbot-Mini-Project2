@@ -11,7 +11,8 @@
   },
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "generate-embeddings": "node generate-embeddings.js"
   },
   "dependencies": {
     "@ai-sdk/google": "^2.0.11",
