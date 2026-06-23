@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ChatWindow from "@/components/chat/ChatWindow.jsx";
 import ThemeToggle from "@/components/chat/ThemeToggle.jsx";
-import { Bot, Settings, User, Users, GraduationCap, Briefcase, Building2, Globe } from "lucide-react";
+import { Home, Settings, User, Users, GraduationCap, Briefcase, Building2, Globe } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -108,7 +108,7 @@ export default function App() {
                 className="ml-0.5 sm:ml-1 h-7 w-7 sm:h-8 sm:w-8 rounded-xl bg-gradient-to-br from-[#7C3AED] to-[#A855F7] text-white flex items-center justify-center text-[10px] sm:text-xs font-bold shadow-md shadow-purple-200/30 dark:shadow-purple-900/30 hover:shadow-lg hover:shadow-[#7C3AED]/30 transition-all duration-200 active:scale-90"
                 title="Clear chat"
               >
-                <Bot size={12} className="sm:size-[14px]" />
+                <Home size={12} className="sm:size-[14px]" />
               </button>
             </div>
           </div>

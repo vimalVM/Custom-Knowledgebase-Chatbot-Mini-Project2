@@ -61,13 +61,8 @@ function SourceCitation({ sources }) {
   );
 }
 
-function FollowUpQuestions({ onFollowUp }) {
-  const questions = [
-    "What are the admission deadlines?",
-    "How can I apply for scholarships?",
-    "What courses are available?",
-    "How do I contact faculty?",
-  ];
+function FollowUpQuestions({ questions = [], onFollowUp }) {
+  if (!questions || questions.length === 0) return null;
   return (
     <div className="mt-3 sm:mt-4 flex flex-wrap gap-1.5 sm:gap-2">
       <span className="text-[10px] sm:text-[11px] text-slate-400 dark:text-slate-500 w-full mb-0.5 font-semibold uppercase tracking-wider">
@@ -86,7 +81,7 @@ function FollowUpQuestions({ onFollowUp }) {
   );
 }
 
-export default function MessageBubble({ role, content, sources, metadata, onFollowUp }) {
+export default function MessageBubble({ role, content, sources, metadata, followUps, onFollowUp }) {
   const isUser = role === "user";
 
   return (
@@ -227,7 +222,7 @@ export default function MessageBubble({ role, content, sources, metadata, onFoll
           {!isUser && <SourceCitation sources={sources} />}
 
           {!isUser && onFollowUp && (
-            <FollowUpQuestions onFollowUp={onFollowUp} />
+            <FollowUpQuestions questions={followUps} onFollowUp={onFollowUp} />
           )}
         </div>
       </div>

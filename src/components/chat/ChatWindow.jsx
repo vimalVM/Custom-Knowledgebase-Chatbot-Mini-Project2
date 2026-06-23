@@ -41,6 +41,50 @@ export default function ChatWindow({ role = "all" }) {
   }, [messages, loading]);
 
   const canSend = useMemo(() => input.trim().length > 0 && !loading, [input, loading]);
+  // Generate context-based follow-up questions from the AI response
+  function generateFollowUps(answerText, userQuestion) {
+    const text = answerText.toLowerCase();
+    const suggestions = [];
+
+    // Topic-based dynamic suggestions
+    if (text.includes("admission") || text.includes("apply"))
+      suggestions.push("What documents are needed for admission?");
+    if (text.includes("scholarship") || text.includes("financial aid"))
+      suggestions.push("What is the GPA requirement for scholarship renewal?");
+    if (text.includes("fee") || text.includes("tuition") || text.includes("payment"))
+      suggestions.push("What are the payment deadlines?");
+    if (text.includes("hostel") || text.includes("accommodation") || text.includes("residence"))
+      suggestions.push("What are the hostel rules and timings?");
+    if (text.includes("exam") || text.includes("test") || text.includes("assessment"))
+      suggestions.push("What is the exam schedule?");
+    if (text.includes("placement") || text.includes("career") || text.includes("internship"))
+      suggestions.push("How do I register for placements?");
+    if (text.includes("library"))
+      suggestions.push("What are the library timings?");
+    if (text.includes("sports") || text.includes("coaching") || text.includes("fitness"))
+      suggestions.push("What sports facilities are available?");
+    if (text.includes("faculty") || text.includes("professor") || text.includes("mentor"))
+      suggestions.push("How can I contact my faculty advisor?");
+    if (text.includes("calendar") || text.includes("semester") || text.includes("holiday"))
+      suggestions.push("When does the next semester start?");
+    if (text.includes("policy") || text.includes("rule") || text.includes("regulation"))
+      suggestions.push("What are the attendance requirements?");
+    if (text.includes("mba") || text.includes("programme") || text.includes("course"))
+      suggestions.push("What specializations are offered?");
+    if (text.includes("ai") || text.includes("artificial intelligence") || text.includes("chatgpt"))
+      suggestions.push("What is the AI usage policy for students?");
+
+    // Remove any that are too similar to the user's original question
+    const userWords = userQuestion.toLowerCase().split(/\s+/);
+    const filtered = suggestions.filter((s) => {
+      const sWords = s.toLowerCase().split(/\s+/);
+      const overlap = sWords.filter((w) => userWords.includes(w)).length;
+      return overlap / sWords.length < 0.5;
+    });
+
+    // Return up to 3 unique suggestions
+    return [...new Set(filtered)].slice(0, 3);
+  }
 
   const onSend = useCallback(async (e, preset) => {
     if (e) e.preventDefault();
@@ -67,6 +111,7 @@ export default function ChatWindow({ role = "all" }) {
       const data = await res.json();
       const answerText = data.answer || "I could not generate a response.";
       const sources = Array.isArray(data.sources) ? data.sources : [];
+      const followUps = generateFollowUps(answerText, content);
 
       setMessages((prev) => [
         ...prev,
@@ -75,6 +120,7 @@ export default function ChatWindow({ role = "all" }) {
           role: "assistant",
           content: answerText,
           sources,
+          followUps,
           metadata: {
             type: "Knowledge Base",
             sourceCount: sources.length,
@@ -185,6 +231,7 @@ export default function ChatWindow({ role = "all" }) {
                   content={m.content}
                   sources={m.sources}
                   metadata={m.metadata}
+                  followUps={m.followUps}
                   onFollowUp={(q) => onSend(null, q)}
                 />
               </div>
