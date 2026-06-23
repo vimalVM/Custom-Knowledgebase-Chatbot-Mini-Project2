@@ -169,44 +169,17 @@ function retrieve(queryVec, audience = "guest", k = 5) {
 
 function buildPrompt({ question, audience, contexts }) {
   const contextText = contexts
-    .map((c, i) => `# Reference ${i + 1}: ${c.title}\n${c.content}`)
-    .join("\n\n");
+    .map((c, i) => `[${i + 1}] ${c.title}: ${c.content}`)
+    .join("\n");
 
-  return `
-You are an institutional assistant for an academic institution KJSIM (Kj Somaiya Institute of Management).
-
-Your role:
-- Answer questions for the given audience: **${audience}**.
-- Use ONLY the information provided in the "CONTEXT". 
-- If the answer is not in the context, respond with:
-  "I don't have that information in my knowledge base."
-
-How to respond:
-- Provide a **clear, detailed, and well-structured explanation**.
-- Break down policies, rules, or procedures in a way that any person (student, faculty, staff, or visitor) can easily understand.
-- Use simple, professional, and approachable language.
-- When the question relates to a policy, rule, or detailed process:
-  - Summarize the policy.
-  - Explain step by step how it works.
-  - Highlight important dates, requirements, or exceptions.
-  - Give examples if useful.
-- Do NOT just give a short answer — elaborate fully so the user feels confident they understand.
-- If relevant, add disclaimers (e.g., “Please confirm with the official office for the latest updates”).
-
----
+  return `You are KJSIM's institutional assistant. Audience: ${audience}.
+Rules: Use ONLY the context below. If not found, say "I don't have that information." Be concise but clear. Use bullets for steps/lists.
 
 CONTEXT:
 ${contextText}
 
----
-
-QUESTION:
-${question}
-
----
-
-DETAILED RESPONSE:
-`;
+Q: ${question}
+A:`;
 }
 
 app.post("/api/chat", async (req, res) => {
@@ -221,7 +194,7 @@ app.post("/api/chat", async (req, res) => {
     }
 
     const queryVec = await embedText(String(lastUser.content));
-    const contexts = retrieve(queryVec, role, 10);
+    const contexts = retrieve(queryVec, role, 4);
 
     const prompt = buildPrompt({
       question: lastUser.content,
@@ -237,7 +210,7 @@ app.post("/api/chat", async (req, res) => {
       model: "llama-3.3-70b-versatile",
       messages: [{ role: "user", content: prompt }],
       temperature: 0.4,
-      max_tokens: 1024,
+      max_tokens: 512,
     });
     const text =
       completion.choices[0]?.message?.content || "I could not generate a response.";
