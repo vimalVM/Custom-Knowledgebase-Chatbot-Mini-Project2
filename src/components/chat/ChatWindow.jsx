@@ -120,29 +120,29 @@ export default function ChatWindow({ role = "all" }) {
         className="flex-1 overflow-y-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-6 space-y-1 scroll-smooth"
       >
         {isWelcome ? (
-          <div className="h-full flex flex-col items-center justify-center text-center px-2 sm:px-4">
+          <div className="min-h-full flex flex-col items-center justify-start sm:justify-center text-center px-2 sm:px-4 pt-6 sm:pt-0">
             {/* AI Orb Hero */}
-            <div className="mb-8 sm:mb-12">
-              <div className="relative inline-flex mb-6 sm:mb-8">
+            <div className="mb-5 sm:mb-12">
+              <div className="relative inline-flex mb-4 sm:mb-8">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#7C3AED]/20 via-[#8B5CF6]/15 to-transparent blur-[40px] sm:blur-[60px] scale-150" />
                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[#A855F7]/10 via-transparent to-[#7C3AED]/10 blur-[30px] sm:blur-[40px] scale-125" />
-                <div className="relative h-[72px] w-[72px] sm:h-[100px] sm:w-[100px] lg:h-[120px] lg:w-[120px] rounded-full bg-gradient-to-br from-[#7C3AED] via-[#8B5CF6] to-[#A855F7] flex items-center justify-center shadow-2xl shadow-[#7C3AED]/30 dark:shadow-[#7C3AED]/40 animate-pulse-glow-lg">
+                <div className="relative h-[56px] w-[56px] sm:h-[100px] sm:w-[100px] lg:h-[120px] lg:w-[120px] rounded-full bg-gradient-to-br from-[#7C3AED] via-[#8B5CF6] to-[#A855F7] flex items-center justify-center shadow-2xl shadow-[#7C3AED]/30 dark:shadow-[#7C3AED]/40 animate-pulse-glow-lg">
                   <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-white/20 via-transparent to-white/10" />
                   <Sparkles size={24} className="sm:size-[32px] lg:size-[40px] text-white drop-shadow-lg relative z-10" />
                 </div>
               </div>
-              <h1 className="text-[22px] sm:text-[36px] lg:text-[48px] font-bold mb-3 sm:mb-4 tracking-tight leading-[1.1] px-2">
+              <h1 className="text-[20px] sm:text-[36px] lg:text-[48px] font-bold mb-2 sm:mb-4 tracking-tight leading-[1.1] px-2">
                 <span className="bg-gradient-to-r from-[#7C3AED] via-[#8B5CF6] to-[#A855F7] dark:from-[#A855F7] dark:via-[#C084FC] dark:to-[#D8B4FE] bg-clip-text text-transparent">
                   How can I help you today?
                 </span>
               </h1>
-              <p className="text-[13px] sm:text-[15px] lg:text-base text-slate-500 dark:text-slate-400 max-w-xl mx-auto leading-relaxed font-medium px-2">
+              <p className="text-[12px] sm:text-[15px] lg:text-base text-slate-500 dark:text-slate-400 max-w-xl mx-auto leading-relaxed font-medium px-2">
                 Ask questions about admissions, scholarships, academic calendars, student services, campus resources, and more.
               </p>
             </div>
 
             {/* Quick Action Cards - 3x2 Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 w-full max-w-3xl px-1 sm:px-0">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 w-full max-w-3xl px-1 sm:px-0 pb-4 sm:pb-0">
               {SUGGESTED_QUESTIONS.map((q, i) => (
                 <button
                   key={q.title}
