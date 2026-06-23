@@ -12,9 +12,8 @@ dotenv.config();
 const PORT = process.env.PORT || 8787;
 const app = express();
 const corsOptions = {
-  origin: "*", 
-  methods: ["GET", "POST", "OPTIONS", "PUT", "DELETE"],
-  allowedHeaders: ["Content-Type", "Authorization"],
+  origin: "*",
+  optionsSuccessStatus: 200
 };
 
 app.use(cors(corsOptions));
