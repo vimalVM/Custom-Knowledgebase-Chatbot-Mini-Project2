@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ChatWindow from "@/components/chat/ChatWindow.jsx";
 import ThemeToggle from "@/components/chat/ThemeToggle.jsx";
-import { Home, Settings, User, Users, GraduationCap, Briefcase, Building2, Globe } from "lucide-react";
+import { Bot, Home, Settings, User, Users, GraduationCap, Briefcase, Building2, Globe } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
